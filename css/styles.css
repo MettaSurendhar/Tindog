@@ -1,0 +1,264 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+}
+    
+p{
+    font-family:"Ubuntu";
+    font-weight:500;
+    font-size:1.3rem;
+    line-height:1;
+    color:#73777b;
+}
+
+/* Container Fluid */
+.container-fluid{
+    padding:7% 13%;
+}
+
+/* Big Heading */
+
+.big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Section Heading */
+
+.section-heading {
+
+    font-family: "Merriweather Sans";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 5px;
+
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #FFF;
+}
+
+.white-section{
+    background-color: white;
+    color:#000;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+
+/* Navbar-Brand*/
+.navbar-brand { 
+    font-size: 2.5rem;
+    font-weight:bold;
+    line-height: 1;
+    font-family: "ubuntu";
+}
+
+/* Navbar-Item*/
+.nav-item{
+    padding:0 18px;
+}
+
+.vr{
+    width:3px;
+}
+
+.nav-link{
+    font-family:rubik;
+    font-size:1.5rem;
+    font-weight:light;
+}
+
+/* Title*/
+
+#title .container-fluid {
+    padding: 3% 13% 7%;
+    text-align: left;
+} 
+
+/*Title Image*/
+
+.title-image{
+    width:25%;
+    transform: rotate(25deg);
+    position:absolute;
+    right:20%;
+}
+
+/* Features Section*/
+
+#features{
+    position: relative;
+}
+
+/* Feautre Box */
+
+.feature-box{
+    padding:3%;
+}
+
+/* Feautre Icon */
+
+.feature-icon{
+    color:#ff6464;
+}
+
+.feature-icon:hover{
+    color:#ff1818;
+}
+
+/* Feature Heading */
+
+.feature-heading{
+    font-family:"Merriweather sans";
+    font-weight:bold;
+}
+
+/* Testimonials Section */
+
+#testimonial{
+    color:#ff6464;
+}
+
+/* Testimonials Text */
+
+.testimonial-text{
+    font-family: "Edu TAS Beginner";
+    font-weight: bolder;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Testimonials Images */
+
+.testimonial-image{
+    width: 13%;
+    border-radius: 100%;
+    margin:20px;
+}
+
+/* Testimonials Names */
+
+.testimonial-name{
+    font-weight: 700;
+    font-size: large;
+}
+
+/* Press Section */
+
+#press{
+    padding-bottom: 3%;
+}
+
+/* Press Logo */
+
+.press-logo{
+    width:13%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing{
+    padding:100px;
+}
+
+/* Price Coloumn */
+
+.price-col{
+    padding:3% 2%;
+}
+
+/* Price Title */
+
+.price-title{
+
+    font-family: "PT Sans";
+    font-weight: 700;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* Price Text */
+
+.price-text{
+
+    font-family: "Merriweather Sans";
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 5px;
+}
+
+/* Price Button */
+
+.price-btn{
+    font-family:"PT Sans";
+    font-weight:700;
+    font-size:x-large;
+}
+
+/* Footer */
+
+.footer-icon{
+    margin:20px 10px;
+    padding-bottom:2%;
+    color:#000;
+}
+
+.footer-text{
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+
+
+/* Media queries */
+
+@media (max-width:1112px){
+
+    /* Navbar Item */
+
+    .nav-item {
+            text-align: left;
+            padding: 0;
+        }
+    
+        .vr {
+            width: 0px;
+        }
+
+    /* Title */
+
+    #title{
+        text-align:center;
+    }
+
+    /* Title Image */
+    
+    .title-image {
+        width: 60%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    
+
+}

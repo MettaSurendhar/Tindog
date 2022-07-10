@@ -237,7 +237,7 @@ p{
     /* Navbar Item */
 
     .nav-item {
-            text-align: center;
+            text-align: left;
             padding: 0;
         }
     
@@ -247,8 +247,8 @@ p{
 
     /* Title */
 
-    #title{
-        text-align:center;
+    #title .container-fluid{
+        text-align: center;
     }
 
     /* Title Image */

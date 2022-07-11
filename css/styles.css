@@ -255,6 +255,24 @@ p{
         transform: rotate(0deg);
     }
 
+    /* Big Heading */
     
+    .big-heading {
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    line-height: 1;
+    }
 
+    /* Section Heading */
+
+    .section-heading {
+
+    font-family: "Merriweather Sans";
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1;
+    padding: 5px;
+
+    }
 }

@@ -1,2 +1,3 @@
-# CV2
+# Tindog
+
 tindog website( start up website )
